@@ -106,13 +106,6 @@ The analytical process will follow these key steps:
 ### Phase 4: Synthesis and Reporting
 
 
-## Timeline
 
-Following the course schedule:
-
-- **March 10**: Project proposal submission (this document)
-- **April 18**: Complete data collection, cleaning, and exploratory analysis
-- **May 23**: Finish model implementation and advanced analytics
-- **May 30**: Final submission with complete analysis and findings
 
 
