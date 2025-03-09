@@ -13,37 +13,37 @@ Comparative analysis of cryptocurrency markets and traditional financial indicat
 
 ## Project Overview
 
-Through an analysis of their performance metrics, behavior, and reactions to macroeconomic events, this project seeks to understand how cryptocurrency markets relate to traditional financial markets. I try to comprehend how these various financial ecosystems interact with one another by comparing their risk profiles, volatility trends, and correlation dynamics.
+This project aims to comprehend the relationship between cryptocurrency markets and conventional financial markets by analyzing their performance metrics, behavior, and responses to macroeconomic events. By contrasting the risk profiles, volatility patterns, and correlation dynamics of these diverse financial ecosystems, I attempt to understand how they interact with one another.
 
-I'll investigate trends in market correlations, volatility patterns, and the effects of outside economic factors on various asset classes using data analysis and visualization. Offering data-driven insights that can aid in comprehending the changing dynamic between the conventional and cryptocurrency markets is the aim.
+Using data analysis and visualization, I'll look into patterns of volatility, market correlations, and how external economic factors affect different asset classes. The goal is to provide data-driven insights that can help understand the shifting dynamics between the traditional and cryptocurrency markets.
 
 ## Motivation
 
-The integration of cryptocurrencies into the traditional financial environment poses intriguing analytical challenges, which is why I am working on this project. Understanding how digital assets behave in comparison to traditional assets is becoming more and more crucial as they continue to garner widespread attention for a number of reasons.
+I am working on this project because the integration of cryptocurrencies into the conventional financial environment presents interesting analytical challenges. As digital assets continue to attract a lot of attention for various reasons, it is becoming increasingly important to understand how they behave in contrast to traditional assets.
 
-- **Investment Diversification**: Building more robust portfolios can be facilitated by comprehending correlation patterns between traditional and cryptocurrency assets.
-- **Risk Management**: Better risk assessment is made possible by recognizing how various asset classes react to economic developments.
-- **Market Evolution**: Monitoring the development of cryptocurrency markets in comparison to more established financial systems offers insights into their long-term integration.
+- **Investment Diversification**: Understanding correlation patterns between traditional and cryptocurrency assets can help build more resilient portfolios.
+- **Risk Management**: Understanding how different asset classes respond to economic events enables better risk assessment.
+- **Market Evolution**: An understanding of the long-term integration of cryptocurrency markets can be gained by tracking their growth in relation to more established financial systems.
 
-We can go beyond conjecture and offer fact-based insights into the interactions and influences between these markets by conducting a quantitative analysis of these relationships.
-
+By performing a quantitative analysis of these relationships, we can move beyond speculation and provide fact-based insights into the interactions and influences between these markets.
 ## Data Sources
 
 I plan to collect data from the following sources:
 
 ### Cryptocurrency Data
-- **CoinGecko API**: Historical price data for top cryptocurrencies by market cap, including Bitcoin, Ethereum, and others
-- **Binance Historical Data**: OHLCV data, trading volumes and market depth information
+- **Binance**: OHLCV data, trading volumes and market depth information
 - **CoinMarketCap API**: Market capitalization and trading volume data
+- **CoinGecko API**: Historical price data for top cryptocurrencies by market cap, including Bitcoin, Ethereum, and others
 
 ### Traditional Market Data
 - **Yahoo Finance API**: Stock indices (S&P 500, NASDAQ, DJIA), ETFs, and commodity prices
-- **FRED (Federal Reserve Economic Data)**: Interest rates, bond yields, inflation rates
 - **World Bank Open Data**: Global economic indicators and financial statistics
+- **Federal Reserve Economic Data**: Interest rates, inflation
+
 
 ### Supplementary Data Sources
 - **Social Media Sentiment**: Twitter API, Reddit data (from relevant investing and cryptocurrency subreddits)
-- **Google Trends**: Search interest data for cryptocurrencies and traditional market terms
+- **Google Trends**: Look up cryptocurrency interest statistics and conventional market phrases.
 - **News Headlines**: Financial news APIs and economic calendar data
 
 I will collect these datasets using Python APIs and web scraping techniques where necessary(After I learn it), ensuring data is properly cleaned and aligned by timestamp for accurate comparison.
@@ -81,7 +81,7 @@ Based on the professor's feedback, I've focused on three key research questions 
 
 I will approach this analysis through several complementary methods:
 
-### 1. Exploratory Data Analysis (EDA)
+### 1. Exploratory Data Analysis
 - Descriptive statistics of price movements and returns
 - Time series visualization of different asset classes
 
