@@ -6,10 +6,10 @@ Comparative analysis of cryptocurrency markets and traditional financial indicat
 - [Project Overview](#project-overview)
 - [Motivation](#motivation)
 - [Data Sources](#data-sources)
-- [Research Questions](#research-questions)
+- [Research Questions & Hypotheses](#research-questions--hypotheses)
 - [Methodology](#methodology)
 - [Analysis Plan](#analysis-plan)
-- [Timeline](#timeline)
+
 
 ## Project Overview
 
@@ -48,24 +48,35 @@ I plan to collect data from the following sources:
 
 I will collect these datasets using Python APIs and web scraping techniques where necessary(After I learn it), ensuring data is properly cleaned and aligned by timestamp for accurate comparison.
 
-## Research Questions
+## Research Questions & Hypotheses
 
-This project seeks to answer the following key questions:
+Based on the professor's feedback, I've focused on three key research questions with clear null and alternative hypotheses:
 
-1. **Is there a significant correlation between cryptocurrency markets and traditional financial markets?**
-   
+### 1. Market Correlation Analysis
 
-2. **How do macroeconomic indicators differently impact crypto and traditional markets?**
-  
+**Research Question**: How do cryptocurrency markets correlate with traditional financial markets during different economic conditions?
 
-3. **Does the volatility of crypto markets show convergence toward traditional markets over time?**
+**Null Hypothesis (H₀)**: There is no significant difference in correlation between cryptocurrency and traditional markets during normal market conditions versus market stress periods.
+
+**Alternative Hypothesis (H₁)**: The correlation between cryptocurrency and traditional markets is significantly higher during market stress periods compared to normal market conditions.
+
+### 2. Volatility Convergence Study
+
+**Research Question**: Has cryptocurrency market volatility been converging toward traditional market volatility levels over time?
+
+**Null Hypothesis (H₀)**: There is no significant decrease in the volatility gap between cryptocurrency markets and traditional markets over the study period.
+
+**Alternative Hypothesis (H₁)**: The volatility gap between cryptocurrency markets and traditional markets has significantly decreased over the study period.
+
+### 3. Macroeconomic Impact Assessment
+
+**Research Question**: How do key macroeconomic indicators (inflation rates, interest rates) differently affect cryptocurrency and traditional asset performance?
+
+**Null Hypothesis (H₀)**: Macroeconomic indicators have equal impact on cryptocurrency markets and traditional markets.
+
+**Alternative Hypothesis (H₁)**: Macroeconomic indicators have significantly different impacts on cryptocurrency markets compared to traditional markets.
 
 
-4. **How does social media sentiment differently influence crypto vs. traditional assets?**
-   
-
-5. **What are the risk-return profiles of various asset classes, and how do they compare?**
-  
 ## Methodology
 
 I will approach this analysis through several complementary methods:
