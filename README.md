@@ -116,7 +116,37 @@ The analytical process will follow these key steps:
 
 ### Phase 4: Synthesis and Reporting
 
+---
 
+## Project Files
+
+- `btc.csv` and `sp500.csv`: Raw price data downloaded from Yahoo Finance using `yfinance`
+- `eda_analysis.ipynb`: Includes all code related to data cleaning, visualization, correlation and volatility analysis
+- `requirements.txt`: Python libraries used in the analysis
+
+---
+
+## Key Findings
+
+- There is a statistically significant positive correlation between Bitcoin and the S&P 500 daily returns (r = 0.3855, p < 0.001).
+- BTC exhibits much higher volatility than the S&P 500, as shown by rolling 30-day standard deviations.
+- Hypotheses related to both correlation and volatility were statistically tested and supported.
+
+---
+
+## How to Reproduce
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/EgeAsan36/DSA210-CryptoFinanceProject.git
+
+## How to Run
+
+To install required Python libraries, run:
+
+```bash
+pip install -r requirements.txt
+Then, open the eda_analysis.ipynb notebook using Google Colab, and run all the cells.
 
 
 
